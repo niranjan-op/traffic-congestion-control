@@ -1,0 +1,16 @@
+<additional>
+    <!-- 
+        AGGRESSIVE LANE CHANGE FIX:
+        - lcCooperative="0.1": Makes drivers very uncooperative. They will not slow down to let others in.
+        - lcAssertive="5.0": Makes drivers accept very small gaps when changing lanes, forcing them to squeeze in.
+    -->
+    <vType id="bike" vClass="motorcycle" length="2.0" width="1.0" color="0,0,255" accel="2.0" decel="3.0" maxSpeed="15.0" minGap="1.0" tau="0.8" laneChangeModel="SL2015" lcImpatience="1" jmIgnoreKeepClearTime="9999.0" lcKeepRight="0" latAlignment="arbitrary" minGapLat="0.1" />
+    
+    <vType id="car" vClass="passenger" length="4.5" width="1.8" color="255,255,255" accel="2.6" decel="4.5" maxSpeed="25.0" minGap="1.5" tau="1.0" laneChangeModel="SL2015" lcImpatience="1" lcCooperative="0.1" lcAssertive="3.0" jmIgnoreKeepClearTime="9999.0" lcKeepRight="0" latAlignment="arbitrary" minGapLat="0.1" />
+    
+    <vType id="ambulance" vClass="emergency" length="6.0" width="2.0" color="255,0,0" accel="3.0" decel="5.0" maxSpeed="35.0" minGap="1.5" tau="0.9" laneChangeModel="SL2015" lcImpatience="1" lcCooperative="0.0" lcAssertive="5.0" jmIgnoreKeepClearTime="9999.0" lcKeepRight="0" latAlignment="arbitrary" minGapLat="0.1" />
+    
+    <vType id="bus" vClass="bus" length="9.0" width="2.5" color="255,255,0" accel="1.5" decel="3.0" maxSpeed="20.0" minGap="2.0" tau="1.2" laneChangeModel="SL2015" lcStrategic="10.0" lcSpeedGain="10.0" lcImpatience="1" lcCooperative="0.1" lcAssertive="5.0" jmIgnoreKeepClearTime="9999.0" lcKeepRight="0" latAlignment="arbitrary" minGapLat="0.1" />
+    
+    <vType id="truck" vClass="truck" length="9.0" width="2.5" color="0,255,0" accel="1.2" decel="2.5" maxSpeed="15.0" minGap="2.0" tau="1.2" laneChangeModel="SL2015" lcStrategic="10.0" lcSpeedGain="10.0" lcImpatience="1" lcCooperative="0.1" lcAssertive="5.0" jmIgnoreKeepClearTime="9999.0" lcKeepRight="0" latAlignment="arbitrary" minGapLat="0.1" />
+</additional>

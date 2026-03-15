@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<edges>
+    <edge id="E_J0_J1_A" from="J0" to="J1" numLanes="2"/>
+    <edge id="E_J0_J1_B" from="J1" to="J0" numLanes="2"/>
+    <edge id="E_J1_J2_A" from="J1" to="J2" numLanes="2"/>
+    <edge id="E_J1_J2_B" from="J2" to="J1" numLanes="2"/>
+    <edge id="E_J3_J4_A" from="J3" to="J4" numLanes="2"/>
+    <edge id="E_J3_J4_B" from="J4" to="J3" numLanes="2"/>
+    <edge id="E_J4_J5_A" from="J4" to="J5" numLanes="2"/>
+    <edge id="E_J4_J5_B" from="J5" to="J4" numLanes="2"/>
+    <edge id="E_J6_J7_A" from="J6" to="J7" numLanes="2"/>
+    <edge id="E_J6_J7_B" from="J7" to="J6" numLanes="2"/>
+    <edge id="E_J7_J8_A" from="J7" to="J8" numLanes="2"/>
+    <edge id="E_J7_J8_B" from="J8" to="J7" numLanes="2"/>
+    <edge id="E_J0_J3_A" from="J0" to="J3" numLanes="2"/>
+    <edge id="E_J0_J3_B" from="J3" to="J0" numLanes="2"/>
+    <edge id="E_J3_J6_A" from="J3" to="J6" numLanes="2"/>
+    <edge id="E_J3_J6_B" from="J6" to="J3" numLanes="2"/>
+    <edge id="E_J1_J4_A" from="J1" to="J4" numLanes="2"/>
+    <edge id="E_J1_J4_B" from="J4" to="J1" numLanes="2"/>
+    <edge id="E_J4_J7_A" from="J4" to="J7" numLanes="2"/>
+    <edge id="E_J4_J7_B" from="J7" to="J4" numLanes="2"/>
+    <edge id="E_J2_J5_A" from="J2" to="J5" numLanes="2"/>
+    <edge id="E_J2_J5_B" from="J5" to="J2" numLanes="2"/>
+    <edge id="E_J5_J8_A" from="J5" to="J8" numLanes="2"/>
+    <edge id="E_J5_J8_B" from="J8" to="J5" numLanes="2"/>
+    <edge id="E_NW_A" from="N_NW" to="J0" numLanes="2"/>
+    <edge id="E_NW_B" from="J0" to="N_NW" numLanes="2"/>
+    <edge id="E_NE_A" from="N_NE" to="J2" numLanes="2"/>
+    <edge id="E_NE_B" from="J2" to="N_NE" numLanes="2"/>
+    <edge id="E_SW_A" from="N_SW" to="J6" numLanes="2"/>
+    <edge id="E_SW_B" from="J6" to="N_SW" numLanes="2"/>
+    <edge id="E_SE_A" from="N_SE" to="J8" numLanes="2"/>
+    <edge id="E_SE_B" from="J8" to="N_SE" numLanes="2"/>
+</edges>

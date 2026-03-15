@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<nodes>
+    <node id="J0" x="2" y="132" type="traffic_light"/>
+    <node id="J1" x="104" y="137" type="traffic_light"/>
+    <node id="J2" x="184" y="147" type="traffic_light"/>
+    <node id="J3" x="31" y="59" type="traffic_light"/>
+    <node id="J4" x="75" y="75" type="traffic_light"/>
+    <node id="J5" x="143" y="62" type="traffic_light"/>
+    <node id="J6" x="-27" y="-16" type="traffic_light"/>
+    <node id="J7" x="57" y="21" type="traffic_light"/>
+    <node id="J8" x="188" y="-28" type="traffic_light"/>
+    <node id="N_NW" x="-103" y="239" type="priority"/>
+    <node id="N_NE" x="238" y="253" type="priority"/>
+    <node id="N_SW" x="-81" y="-85" type="priority"/>
+    <node id="N_SE" x="229" y="-102" type="priority"/>
+</nodes>

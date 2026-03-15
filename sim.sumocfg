@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<configuration>
+    <input>
+        <net-file value="grid.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+        <additional-files value="vtypes.add.xml"/>
+    </input>
+    <processing>
+        <ignore-route-errors value="true"/>
+        <collision.action value="warn"/>
+    </processing>
+</configuration>
